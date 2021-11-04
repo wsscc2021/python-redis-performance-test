@@ -1,5 +1,6 @@
 import threading
 import time
+import sys
 import redis_function
 
 def multi_threading(function, redis_client):
@@ -33,7 +34,7 @@ def multi_threading(function, redis_client):
 
 if __name__ == "__main__":
     redis_client = redis_function.create_redis_client(
-        host="clustercfg.dev-rdsworkshop-memorydb-redis-cluster.mdgzac.memorydb.us-east-1.amazonaws.com",
+        host="clustercfg.dev-rdsworkshop-elasticache-redis.mdgzac.use1.cache.amazonaws.com",
         port=6379)
     print("================= write action ========================")
     multi_threading(redis_function.write, redis_client)
@@ -41,3 +42,5 @@ if __name__ == "__main__":
     multi_threading(redis_function.get, redis_client)
     print("================= delete action ========================")
     multi_threading(redis_function.delete, redis_client)
+    print("================= transact action ========================")
+    multi_threading(redis_function.transact, redis_client)
