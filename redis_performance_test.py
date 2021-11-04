@@ -33,14 +33,21 @@ def multi_threading(function, redis_client):
         time.sleep(0.1)
 
 if __name__ == "__main__":
-    redis_client = redis_function.create_redis_client(
-        host="clustercfg.dev-rdsworkshop-elasticache-redis.mdgzac.use1.cache.amazonaws.com",
-        port=6379)
-    print("================= write action ========================")
-    multi_threading(redis_function.write, redis_client)
-    print("================= get action ========================")
-    multi_threading(redis_function.get, redis_client)
-    print("================= delete action ========================")
-    multi_threading(redis_function.delete, redis_client)
-    print("================= transact action ========================")
-    multi_threading(redis_function.transact, redis_client)
+    try:
+        host: str = sys.argv[1]
+        port: int = sys.argv[2]
+        redis_client = redis_function.create_redis_client(
+            host=host,
+            port=port)
+        print("================= write action ========================")
+        multi_threading(redis_function.write, redis_client)
+        print("================= get action ========================")
+        multi_threading(redis_function.get, redis_client)
+        print("================= delete action ========================")
+        multi_threading(redis_function.delete, redis_client)
+        print("================= transact action ========================")
+        multi_threading(redis_function.transact, redis_client)
+    except IndexError:
+        print("Execution Error!")
+        print("Please enter your redis-cluster's host and port such as below.")
+        print("> python3 sample.py [host] [port]")
