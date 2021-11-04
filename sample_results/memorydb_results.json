@@ -1,0 +1,33 @@
+================= write action ========================
+{"thread_name": "Thread-5", "range": "40001 ~ 50001", "action": "write", "execution_time": 39.59890532493591, "start_time": "2021-11-04 02:25:09.1635992709", "end_time": "2021-11-04 02:25:48.1635992748"}
+{"thread_name": "Thread-8", "range": "70001 ~ 80001", "action": "write", "execution_time": 39.615742683410645, "start_time": "2021-11-04 02:25:09.1635992709", "end_time": "2021-11-04 02:25:48.1635992748"}
+{"thread_name": "Thread-2", "range": "10001 ~ 20001", "action": "write", "execution_time": 39.639984130859375, "start_time": "2021-11-04 02:25:09.1635992709", "end_time": "2021-11-04 02:25:48.1635992748"}
+{"thread_name": "Thread-9", "range": "80001 ~ 90001", "action": "write", "execution_time": 39.678356409072876, "start_time": "2021-11-04 02:25:09.1635992709", "end_time": "2021-11-04 02:25:48.1635992748"}
+{"thread_name": "Thread-7", "range": "60001 ~ 70001", "action": "write", "execution_time": 39.684561014175415, "start_time": "2021-11-04 02:25:09.1635992709", "end_time": "2021-11-04 02:25:48.1635992748"}
+{"thread_name": "Thread-3", "range": "20001 ~ 30001", "action": "write", "execution_time": 39.68653607368469, "start_time": "2021-11-04 02:25:09.1635992709", "end_time": "2021-11-04 02:25:48.1635992748"}
+{"thread_name": "Thread-4", "range": "30001 ~ 40001", "action": "write", "execution_time": 39.71230721473694, "start_time": "2021-11-04 02:25:09.1635992709", "end_time": "2021-11-04 02:25:48.1635992748"}
+{"thread_name": "Thread-1", "range": "1 ~ 10001", "action": "write", "execution_time": 39.71563267707825, "start_time": "2021-11-04 02:25:09.1635992709", "end_time": "2021-11-04 02:25:48.1635992748"}
+{"thread_name": "Thread-10", "range": "90001 ~ 100001", "action": "write", "execution_time": 39.70246505737305, "start_time": "2021-11-04 02:25:09.1635992709", "end_time": "2021-11-04 02:25:48.1635992748"}
+{"thread_name": "Thread-6", "range": "50001 ~ 60001", "action": "write", "execution_time": 39.73032855987549, "start_time": "2021-11-04 02:25:09.1635992709", "end_time": "2021-11-04 02:25:48.1635992748"}
+================= get action ========================
+{"thread_name": "Thread-17", "range": "60001 ~ 70001", "action": "get", "execution_time": 10.862936735153198, "start_time": "2021-11-04 02:25:49.1635992749", "end_time": "2021-11-04 02:25:59.1635992759"}
+{"thread_name": "Thread-14", "range": "30001 ~ 40001", "action": "get", "execution_time": 10.885223627090454, "start_time": "2021-11-04 02:25:49.1635992749", "end_time": "2021-11-04 02:25:59.1635992759"}
+{"thread_name": "Thread-18", "range": "70001 ~ 80001", "action": "get", "execution_time": 10.89264464378357, "start_time": "2021-11-04 02:25:49.1635992749", "end_time": "2021-11-04 02:25:59.1635992759"}
+{"thread_name": "Thread-19", "range": "80001 ~ 90001", "action": "get", "execution_time": 10.892698287963867, "start_time": "2021-11-04 02:25:49.1635992749", "end_time": "2021-11-04 02:25:59.1635992759"}
+{"thread_name": "Thread-20", "range": "90001 ~ 100001", "action": "get", "execution_time": 10.897774457931519, "start_time": "2021-11-04 02:25:49.1635992749", "end_time": "2021-11-04 02:25:59.1635992759"}
+{"thread_name": "Thread-16", "range": "50001 ~ 60001", "action": "get", "execution_time": 10.907915353775024, "start_time": "2021-11-04 02:25:49.1635992749", "end_time": "2021-11-04 02:25:59.1635992759"}
+{"thread_name": "Thread-12", "range": "10001 ~ 20001", "action": "get", "execution_time": 10.918562173843384, "start_time": "2021-11-04 02:25:49.1635992749", "end_time": "2021-11-04 02:25:59.1635992759"}
+{"thread_name": "Thread-11", "range": "1 ~ 10001", "action": "get", "execution_time": 10.933583498001099, "start_time": "2021-11-04 02:25:49.1635992749", "end_time": "2021-11-04 02:25:59.1635992759"}
+{"thread_name": "Thread-15", "range": "40001 ~ 50001", "action": "get", "execution_time": 10.942851305007935, "start_time": "2021-11-04 02:25:49.1635992749", "end_time": "2021-11-04 02:25:59.1635992759"}
+{"thread_name": "Thread-13", "range": "20001 ~ 30001", "action": "get", "execution_time": 10.96233868598938, "start_time": "2021-11-04 02:25:49.1635992749", "end_time": "2021-11-04 02:26:00.1635992760"}
+================= delete action ========================
+{"thread_name": "Thread-25", "range": "40001 ~ 50001", "action": "delete", "execution_time": 39.51218008995056, "start_time": "2021-11-04 02:26:00.1635992760", "end_time": "2021-11-04 02:26:39.1635992799"}
+{"thread_name": "Thread-22", "range": "10001 ~ 20001", "action": "delete", "execution_time": 39.528265953063965, "start_time": "2021-11-04 02:26:00.1635992760", "end_time": "2021-11-04 02:26:39.1635992799"}
+{"thread_name": "Thread-28", "range": "70001 ~ 80001", "action": "delete", "execution_time": 39.529489517211914, "start_time": "2021-11-04 02:26:00.1635992760", "end_time": "2021-11-04 02:26:39.1635992799"}
+{"thread_name": "Thread-29", "range": "80001 ~ 90001", "action": "delete", "execution_time": 39.54604721069336, "start_time": "2021-11-04 02:26:00.1635992760", "end_time": "2021-11-04 02:26:39.1635992799"}
+{"thread_name": "Thread-30", "range": "90001 ~ 100001", "action": "delete", "execution_time": 39.56706714630127, "start_time": "2021-11-04 02:26:00.1635992760", "end_time": "2021-11-04 02:26:39.1635992799"}
+{"thread_name": "Thread-21", "range": "1 ~ 10001", "action": "delete", "execution_time": 39.58131742477417, "start_time": "2021-11-04 02:26:00.1635992760", "end_time": "2021-11-04 02:26:39.1635992799"}
+{"thread_name": "Thread-26", "range": "50001 ~ 60001", "action": "delete", "execution_time": 39.60073471069336, "start_time": "2021-11-04 02:26:00.1635992760", "end_time": "2021-11-04 02:26:39.1635992799"}
+{"thread_name": "Thread-27", "range": "60001 ~ 70001", "action": "delete", "execution_time": 39.605578660964966, "start_time": "2021-11-04 02:26:00.1635992760", "end_time": "2021-11-04 02:26:39.1635992799"}
+{"thread_name": "Thread-23", "range": "20001 ~ 30001", "action": "delete", "execution_time": 39.606788873672485, "start_time": "2021-11-04 02:26:00.1635992760", "end_time": "2021-11-04 02:26:39.1635992799"}
+{"thread_name": "Thread-24", "range": "30001 ~ 40001", "action": "delete", "execution_time": 39.61570954322815, "start_time": "2021-11-04 02:26:00.1635992760", "end_time": "2021-11-04 02:26:39.1635992799"}
