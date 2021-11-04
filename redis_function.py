@@ -46,3 +46,14 @@ def delete(redis_client, range_start: int, range_end: int):
     for i in range(range_start, range_end):
         key = str(i).zfill(6)
         redis_client.delete(key)
+
+@time_measurement(action="transact")
+def transact(redis_client, range_start: int, range_end: int):
+    value = "empty"
+    for i in range(range_start, range_end):
+        key = str(i).zfill(6)
+        pipe = redis_client.pipeline()
+        pipe.set(key, value)
+        pipe.get(key)
+        pipe.delete(key)
+        pipe.execute()
