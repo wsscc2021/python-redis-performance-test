@@ -15,15 +15,6 @@ Redis Cluster의 Read/Write 성능을 측정하기 위한 스크립트입니다.
 
 ### 실행 방법
 
-`redis_performance_test.py` 파일 수정
-```python 
-# MemoryDB 또는 ElastiCache의 Cluster Endpoint 로 변경합니다.
-if __name__ == "__main__":
-    redis_client = redis_function.create_redis_client(
-        host="clustercfg.dev-rdsworkshop-memorydb-redis-cluster.mdgzac.memorydb.us-east-1.amazonaws.com",
-        port=6379)
-```
-
 필요한 라이브러리 설치
 ```bash
 pip3 install -r requirements.txt
@@ -31,7 +22,7 @@ pip3 install -r requirements.txt
 
 스크립트 실행
 ```bash
-python3 redis_performance_test.py
+python3 redis_performance_test.py $redis_host $redis_host
 ```
 
 ### 예상 출력
